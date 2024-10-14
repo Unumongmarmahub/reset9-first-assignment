@@ -1,3 +1,21 @@
+/* universal style */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* common style  */
+
+.btn-primary {
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  padding: 12px 20px 12px 20px;
+  /* display: flex;
+  justify-content: left; */
+  border-radius: 5px;
+}
 /* google fonts  */
 
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
@@ -57,3 +75,102 @@ body {
   cursor: pointer;
   margin-bottom: 43px;
 }
+
+/* start style main section  */
+/* style first part  */
+
+.main-section {
+  width: 1170px;
+  height: 863px;
+  margin: 80px auto;
+  background: rgba(13, 19, 33, 0.07);
+  border-radius: 13px;
+}
+
+.main-section .first-half-main-section {
+  width: 990px;
+  height: 840px;
+  margin: 60px auto;
+  border-radius: 13px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 0 0;
+}
+
+.main-section .programming-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+.first-half-main-section .first-half-main-heading {
+  color: rgb(13, 19, 33);
+  font-size: 27px;
+  font-weight: 800;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.first-half-main-section .first-half-main-description {
+  color: rgb(13, 19, 33);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+
+.first-section {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.first-section .content-section {
+  width: 425px;
+  height: 195px;
+}
+
+.content-section .content-section-heading {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 17px;
+}
+
+.content-section .content-section-description {
+  color: rgb(13, 19, 33);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+  margin-bottom: 33px;
+}
+
+.first-section .img-section {
+  width: 231px;
+  height: 193px;
+}
+
+.first-section .img-section img {
+  width: 100%;
+}
+
