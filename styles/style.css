@@ -79,7 +79,7 @@ body {
 /* style first part  */
 
 .main-section {
-  width: 1170px;
+  width: 1140px;
   height: 863px;
   margin: 80px auto;
   background: rgba(13, 19, 33, 0.07);
@@ -177,7 +177,7 @@ body {
 
 .about-container {
   width: 763px;
-  height: 100px;
+  height: 600px;
   margin: 80px auto;
 }
 
@@ -203,6 +203,42 @@ body {
 }
 
 .video {
-  text-align: center;
-  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+/* style target section  */
+
+.target-container {
+  width: 758px;
+  height: 130px;
+  margin: 0 auto;
+}
+.target-container .target-heading {
+  color: rgb(13, 19, 33);
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.target-container .target-description {
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* style skill section */
+
+.skills-container {
+  /* border: 2px solid red; */
+  height: 366px;
+}
+
